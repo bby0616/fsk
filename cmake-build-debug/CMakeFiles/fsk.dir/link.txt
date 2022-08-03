@@ -1,0 +1,2 @@
+D:\dev\Dev-Cpp\MinGW64\bin\ar.exe qc libfsk.a  CMakeFiles/fsk.dir/library.c.obj
+D:\dev\Dev-Cpp\MinGW64\bin\ranlib.exe libfsk.a

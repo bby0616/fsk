@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fsk"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/code/graduate/fsk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsk">
+				<Option output="F:/code/graduate/fsk/cmake-build-debug/libfsk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/code/graduate/fsk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/dev/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="D:/dev/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/dev/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="D:/dev/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsk"/>
+					<CompileFile command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsk/fast">
+				<Option output="F:/code/graduate/fsk/cmake-build-debug/libfsk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/code/graduate/fsk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/dev/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="D:/dev/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/dev/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="D:/dev/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsk/fast"/>
+					<CompileFile command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/code/graduate/fsk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/code/graduate/fsk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/code/graduate/fsk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/code/graduate/fsk/library.c">
+			<Option target="fsk"/>
+		</Unit>
+		<Unit filename="F:/code/graduate/fsk/library.h">
+			<Option target="fsk"/>
+		</Unit>
+		<Unit filename="F:/code/graduate/fsk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

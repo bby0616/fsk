@@ -1,0 +1,16 @@
+"D:\clion\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/dev/Dev-Cpp/MinGW64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/dev/Dev-Cpp/MinGW64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/dev/Dev-Cpp/MinGW64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" F:\code\graduate\fsk
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_library):
+  Cannot find source file:
+
+    acom_spi_demod_v2.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:6 (add_library):
+  No SOURCES given to target: fsk
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
